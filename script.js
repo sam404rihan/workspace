@@ -3,7 +3,7 @@ let comp=0;
 let incomp=0;
         function add(){
             
-            if(count>8){
+            if(count>6){
                 alert('complete your current tasks')
                 return 0;}
             let input=document.getElementById("input").value;
