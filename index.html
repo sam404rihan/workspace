@@ -13,28 +13,21 @@
         <h1>MY TODO LIST</h1>
         <link rel="stylesheet" href="style.css">
         <div>
-            <input class="text" type="text" id="task" placeholder="Enter your task">
-            <button>Add</button>
+            <input id="input" class="text" type="text" id="task" placeholder="Enter your task">
+            <button onclick="add()" onkeypress='addEventListener(enter)'>Add </button>
         </div>
         <div class="list">
             <u><h2>My Tasks</h2></u>
-            <ul>
-                <li><input type="checkbox" id="buy" name="buy">
-                    <label for="buy">Buy tomatoes</label>
-                </li>
-                <li><input type="checkbox" id="kids" name="kids">
-                    <label for="kids">Pick up kids from school</label>
-                </li>
-                <li><input type="checkbox" id="dish" name="dish">
-                    <label for="dish">wash dishes</label>
-                </li>
-            </ul>
+            <div id="task">
+
+            </div>
         </div>
     
-        <b>Completed : 0 | Incomplete : 0 </b>
+     <p id="taskCount"> <b>Completed :0 | Incomplete :0 </b></p>  
     </div>
 </div>
 </body>
+<script src="script.js"></script>
 
 
 </html>
