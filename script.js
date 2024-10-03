@@ -32,8 +32,11 @@ let incomp=0;
             element.parentElement.parentElement.style.color = 'white';
             element.parentElement.remove();
         }
-
-
+        function checkKey(event){
+                if(event.key==='Enter'){
+                    add()           
+                }    
+        }
 
 
 function remove(element){
