@@ -14,7 +14,7 @@ function add() {
     }
     let x = document.getElementById("taskList");
     let div = document.createElement('div');
-    div.classList.add('flex', 'justify-between', 'items-center', 'w-11', 'm-1', 'p-1.5', 'border', 'border-gray-300', 'rounded', 'bg-gray-100', 'text-black', 'opacity-80', 'overflow-auto');
+    div.classList.add('flex', 'justify-between', 'items-center', 'w-11/12', 'm-1', 'p-1.5', 'border', 'border-gray-300', 'rounded', 'bg-gray-100', 'text-black', 'opacity-80', 'overflow-auto');
     div.innerHTML = `${input}<div><button class='complete' onclick='something(this)' class='bg-green-500 text-white p-1 rounded'>Completed</button></div><button class='delete' onclick='remove(this)' class='bg-red-500 text-white p-1 rounded'>Remove</button>`;
     count += 1;
     x.appendChild(div);
